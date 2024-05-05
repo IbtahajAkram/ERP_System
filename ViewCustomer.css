@@ -1,0 +1,76 @@
+.MainCustomPage{
+    margin-top: -774px;
+    margin-left: 223px;
+   
+}
+.MainCustomPage h1{
+    margin-left: 67px;
+    font-family: sans-serif;
+
+
+}
+
+body{
+    background-color: #ececec;
+}
+.mainCustm{
+    background-color: #ffffff;
+    border-radius: 21px;
+    width: 126%;
+    margin-left: 25px;
+    margin-top: 31px;
+    margin-right: 133px;
+ 
+}
+
+.vieCustLink{
+    text-decoration: none;
+    margin-left: 56px;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+    border-width: 3px;
+ width: 243px;
+    border-right-color: rgb(231, 192, 192);
+    margin-bottom: 12px;
+    
+}
+.vieCustLink a{
+    margin-left: 11px;
+   width: 95px;
+   margin-bottom: 12px;
+   
+    
+}
+.linkCB{
+    border-bottom: #e5e5e5 3px solid;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+}
+.linkAll{
+    border-bottom: 3px solid #3b5bfc;
+    border-width: 3.3px;
+    padding-left:-3px ;
+    padding-right:11px ;
+    padding-bottom: 5px;
+    
+  
+}
+td{
+    font-size: 15.7px;
+}
+
+@media (max-width: 718px) {
+    /* Add your styles for smaller screens here */
+    /* For example: */
+    .mainCustm {
+      overflow-x: auto;
+    }
+    .mainCustm table {
+      width: 100%;
+    }
+    .mainCustm table th,
+    .mainCustm table td {
+      padding: 10px;
+    }
+  }
+  

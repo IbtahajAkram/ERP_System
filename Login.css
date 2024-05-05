@@ -1,0 +1,72 @@
+.form {
+    display: flex;
+    flex-direction: column;
+margin-left: 31%;
+    margin-top: 104px;
+    font-family: Arial, sans-serif; /* You can adjust the font family as needed */
+  }
+
+  /* Your existing CSS styles */
+
+/* Media query for screens less than or equal to 768px */
+@media (max-width: 768px) {
+  /* Add your styles for smaller screens here */
+  /* For example: */
+  .mainCustm {
+    overflow-x: auto;
+  }
+  .mainCustm table {
+    width: 100%;
+  }
+  .mainCustm table th,
+  .mainCustm table td {
+    padding: 10px;
+  }
+}
+
+  .form p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 13%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+   
+    
+  }
+  
+  .form label {
+    font-size: 16px;
+ margin-bottom: -10px;
+  }
+ 
+ 
+  .Input{
+    width: 51.6%;
+    padding: 10px;
+    border: 1px solid #6375ff;
+    border-radius: 12px;
+    font-size: 16px;
+    height: 4.8vh;
+    
+  }
+  
+
+  
+  .button {
+    padding-left: 23.7%;
+    background-color: #566aff;
+    color: #fff;
+    border: none;
+    width: 54.6%;
+    border-radius: 12px;
+    font-size: 19.4px;
+    cursor: pointer;
+    align-items: center;
+    height: 8vh;
+
+  }
+  
+  .button:hover {
+    background-color: #5467fd;
+  }
+  
